@@ -50,9 +50,9 @@
 }
 
 .card{
-    @apply w-[320px] rounded-[25px] bg-white font-DM text-black shadow-xl;
+    @apply w-[320px] rounded-[25px] bg-white font-DM text-black ;
 }
 
 .card-content{
-    @apply flex flex-col items-center py-[10px] px-[14px] font-DM ;
+    @apply flex flex-col items-center py-[10px] px-[10px] font-DM ;
 }

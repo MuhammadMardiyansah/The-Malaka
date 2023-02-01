@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Malaka</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="./asstes/logo.png">
+
+    <!-- animation aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <nav class=" px-8 py-2 font-Source md:py-4 absolute top-0 z-20 w-full rounded-lg">
+        <div class="flex items-center justify-between">
+            <span class="flex items-center space-x-2 md:space-x-3 py-1 z-10  md:py-0">
+                <img src="./asstes/logo.png" alt="" class="w-10 h-10 md:h-14 md:w-14">
+                <p class="font-bold text-sm uppercase md:text-lg mt-1.5 text-gray-400">the malaka</p>
+            </span>
+            <ul class="hidden lg:flex item-center space-x-10  text-gray-400 tracking-wide md:flex">
+                <li >
+                    <a href="#home" class="font-extrabold">Top</a>
+                </li>
+                <li class="hover:scale-105 delay-100 ">
+                    <a href="#forevryone">For Everyone</a>
+                </li>
+                <li class="hover:scale-105 delay-100 ">
+                    <a href="#benefit">Benefit</a>
+                </li>
+                <li class="hover:scale-105 delay-100 ">
+                    <a href="#penulis">Penulis</a>
+                </li>
+                <li class="hover:scale-105 delay-100 ">
+                    <a href="#testimoni"> Priview </a>
+                </li>
+    
+               
+            </ul>
+            <a href="" class="hidden hover:scale-105 lg:block px-6 py-2 shadow-xl rounded-[100px] text-sm font-bold text-black bg-white z-20">Download</a>
+           
+        </div>
+
+        <!-- hamburger menu -->
+        <div class="flex items-center px-4 relative">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute bottom-1 right-4 z-[999999] lg:hidden ">
+                <span class="hamburger-menu transistion duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger-menu transistion duration-300 ease-in-out"></span>
+                <span class="hamburger-menu transistion duration-300 ease-in-out origin-bottom-left"></span>
+
+            </button>
+
+        </div>
+      
+        <div id="nav-menu" class="hidden lg:hidden absolute top-0  right-0  min-h-screen w-full bg-regal-blue">
+            <ul class=" p-10 space-y-7 font-extralight text-white">
+                <span class="block cursor-pointer mt-14">
+                    <li>
+                        <a href="#home" >Top</a>
+                    </li>
+                </span>
+                <span class="block cursor-pointer">
+                    <li>
+                        <a href="#forevryone">For Everyone</a>
+                    </li>
+                </span>
+                <span class="block cursor-pointer">
+                    <li>
+                        <a href="#benefit">Benefit</a>
+                    </li>
+                </span>
+                <span class="block cursor-pointer">
+                    <li>
+                        <a href="#penulis">Penulis</a>
+                    </li>
+                </span>
+                <span class="block cursor-pointer">
+                    <li>
+                        <a href="#testimoni">Priview</a>
+                    </li>
+                </span>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section id="home" class="relative" >
+        <div class="w-full px-10 py-24 bg-regal-blue min-h-screen lg:bg-transparent lg:w-5/12 lg:mx-10 lg:px-12 lg:mb-32">
+            <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                <h1 class="my-5 text-3xl font-DM  text-white leading-tight lg:text-5xl lg:leading-[60px]  md:leading-[60px]">
+                    Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS
+                </h1>
+
+                <p class="text-justify text-white/50 font-DM mb-10 text-[16px] leading-8 md:leading-9" >
+                    Buku ini akan mengajarkan kamu konsep utility-first pada CSS dan diakhiri dengan membangun sebuah website yang responsive dengan Tailwind CSS.
+                </p>
+
+                <div class="flex items-center justify-center space-x-10 font-Source md:items-start md:justify-start">
+                    <a href="" class=" min-w-fit px-7 py-3 tracking-wider shadow-xl rounded-full text-sm font-semibold text-white bg-primary">Beli Sekarang</a>
+                    <div class="flex flex-row mb-4 min-w-fit">
+                        <img src="asstes/unduh.png" alt="" w-full>
+                        
+                    </div>
+                    <div class="flex flex-col min-w-fit ">
+                        
+                        <p class="text-sm text-white/60 text-center ">
+                            SUDAH TERJUAL
+                        
+                        </p>
+                        <p class="font-extrabold text-white text-center">
+                            501,234+
+                        </p>
+                    
+                    </div> 
+                </div>
+            </div>
+           
+
+            <div class="flex flex-col justify-start items-start mt-10 " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <p class="text-sm text-white/60 text-center mb-5">
+                    TEKNOLOGI YANG DIGUNAKAN
+                  
+                </p>
+                <img src="asstes/language.png" alt="" >
+             
+            </div>
+
+            <div class="flex z-10 space-y-10 ">
+                <img src="./assets/hero 1.png" alt="" class=" space-y-10 lg:block w-9/12">
+            </div>
+            <div class="hidden md:block lg:block absolute top-10 right-0 z-10 " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back"> 
+                <img src="asstes/book.png" alt="">
+    
+            </div>
+        
+        </div>
+
+        <div class="hidden lg:block absolute top-0 left-0 -z-10 ">
+            <img src="asstes/hero.png" alt="">
+        </div>
+
+        <div class=" lg:block absolute top-0 right-0">
+            <img src="asstes/hero1.png" alt="">
+        </div>
+
+        <div class="hidden lg:block absolute top-32 left-5 md:block">
+            <img src="asstes/hero2.png" alt="">
+        </div>
+        <div class="hidden lg:block absolute top-52 left-0 md:block">
+            <img src="asstes/hero3.png" alt="">
+        </div>
+        
+    </section>
+
+    <section id="forevryone" class="px-10 py-24 lg:mt-80 lg:mx-10 lg:px-12" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+        <div class="flex flex-col w-full lg:flex-row lg:space-x-12  ">
+            <div class="flex flex-col font-DM lg:w-5/12">
+                <p class="text-primary uppercase text-sm my-3 font-bold"> buku ini untuk siapa</p>
+                <h1 class="text-xl">Buku yang cocok dibaca untuk front-end dan back-end, bahkan UI designer!</h1>
+            </div>
+            <p class="mt-5 text-justify text-sm lg:w-5/12 leading-7">Buku ini bukan hanya untuk front-end developer yang ingin meningkatkan skill, buku ini juga cocok untuk back-end developer dan UI designer agar dapat menulis style tanpa harus menulis kode CSS dan tanpa mengandalkan front-end developer!</p>
+        </div>
+
+        <div class="block space-y-3 lg:space-y-0 lg:flex items-center justify-center gap-10 font-DM">
+            <div class="text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <img src="./asstes/Rectangle 2.png" alt="" class="mb-5">
+                <h2 class="font-semibold text-center">Utility-First Framework</h2>
+                <p class="my-3 text-sm text-center text-regal-blue/80 leading-6">Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.</p>
+            </div>
+            <div class="text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <img src="./asstes/Rectangle 3.png" alt="" class="mb-5">
+                <h2 class="font-semibold text-center">Tailwind JIT Engine</h2>
+                <p class="my-3 text-sm text-center text-regal-blue/80 leading-6">JIT engine akan men-generate utility-class yang kita gunakan saja. Ini akan membuat pengalaman pengembangan semakin baik.</p>
+            </div>
+            <div class=" text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <img src="./asstes/Rectangle 4.png" alt="" class="mb-5">
+                <h2 class="font-semibold text-center">Unopinionated-Framework</h2>
+                <p class="my-3 text-sm text-center text-regal-blue/80 leading-6">Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="" class="px-10 py-24 bg-primary min-h-screen lg:px-0 " >
+        <div class="flex flex-col w-full font-DM lg:flex-row " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+            <div class="flex flex-col lg:w-5/12 lg:mx-10 lg:px-12">
+                <h1 class="text-white font-bold uppercase text-sm mb-3"> buku ini untuk siapa</h1>
+                <h1 class="text-xl  text-white mb-10">Kata Pengantar Dari Penulis Buku</h1>
+                <img src="asstes/Rectangle 5.png" alt="" class="lg:w-[371px] lg:mb-5">
+                <div class="flex flex-col ">
+                    <span class="flex flex-row my-2 ">
+                        <img src="asstes/human.png" alt="" class="mr-4 ">
+                        <h6 class="text-white">
+                            Muhamad Nauval Azhar
+                            <span class="text-white tracking-wide text-sm">
+                                <br>@mhdnauvalazhar
+                            </span>
+                        </h6>
+            
+                    </span>
+                </div>
+
+            </div>
+            <p class="mt-5 text-justify text-sm text-white lg:w-5/12 lg:tracking-wider leading-8">"Tailwind sangat memungkinkan kamu untuk membangun sebuah desain website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun. Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang lebih lama ketika membangun sebuah website dengan utility-first framework ketimbang dengan framework UIkit. Ya, benar. Karena kamu harus memikirkan desain dan mengimplementasikan desain tersebut dari awal sendiri. Namun, kamu perlu ingat manfaat-manfaat yang diberikan oleh utility-first framework, sehingga kamu dapat mempertimbangkannya. Dalam buku ini, kita akan mempelajari framework Tailwind CSS. Mulai dari konsep, workflow, hingga membuat sebuah website responsive dengan TailwindCSS. Buku ini tidak untuk semua orang, setidaknya kamu memahami cara mengoperasikan komputer, memahami HTML, memahami CSS, atau bisa dibilang kamu sudah pernah membangun website sebelumnya dan ingin mempelajari hal baru untuk meningkatkan skill."</p>
+        </div>
+
+    </section>
+
+    <section id="benefit" class="px-10 py-24 bg-regal-primary min-h-screen lg:px-0">
+        <div class="flex flex-col w-full lg:flex-row " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+            <div class="flex flex-col lg:w-5/12 lg:px-12 lg:mx-10">
+                <h1 class="text-primary uppercase text-sm my-5"> manfaat buku</h1>
+                <h1 class="text-xl font-semibold">Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini</h1>
+                <p class="text-sm text-regal-blue/80 my-5 text-justify">"Buku itu seperti cermin: kalau yang berkaca padanya adalah seorang yang bodoh, engkau tak bisa berharap yang terpantul adalah seorang yang jenius." - J.K Rowling</p>
+                <ul class="text-sm space-y-2">
+                    <li>
+                        <p class="flex items-start space-x-5 text-gray-700 my-2">
+                            <img src="asstes/done 1.png" alt="" >
+                            <span>
+                                Buku ini cocok untuk seorang yang ingin memperdalam front-end development agar tidak hanya sekadar Bootstrap 
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="flex items-start space-x-5 text-gray-700">
+                            <img src="asstes/done 1.png" alt="" >
+                            <span>
+                                Buku ini ditulis berdasarkan dari dokumentasi Tailwind CSS langsung, agar meminimalisir terjadinya miskonsepsi
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="flex items-start space-x-5 text-gray-700 my-2">
+                            <img src="asstes/done 1.png" alt="" >
+                            <span>
+                                Sangat ramah untuk back-end developer yang phobia terhadap CSS dan mudah dipahami bagi UI designer
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="flex items-start space-x-5 text-gray-700">
+                            <img src="asstes/done 1.png" alt="" >
+                            <span>
+                                Studi kasus membangun sebuah website responsive dengan Tailwind CSS tanpa ngoding CSS 
+                            </span>
+                        </p>
+                    </li>
+
+                </ul>
+               
+            </div>
+            <div class="min-w-screen mt-10 " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <img src="asstes/book 1.png" alt="">
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full lg:flex-row-reverse font-DM lg:mr-10 lg:pr-12" >
+            <div class="flex flex-col lg:w-5/12" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <h1 class="text-primary uppercase text-sm my-5"> selain itu</h1>
+                <h1 class="text-xl font-semibold">Buku dengan studi kasus nyata, juga komunitas yang ramah</h1>
+                <p class="text-sm text-regal-blue/80 my-5 text-justify leading-6">Buku ini diakhiri dengan membangun website yang responsive dengan Tailwind. Selain itu kamu juga kamu dapat bergabung ke komunitas untuk bertanya ketika mengalami kesulitan.</p>
+                <!-- <div class="block space-y-3 lg:space-y-0 lg:flex items-center justify-center gap-10">
+                    <div class="ml-auto shadow-xl  text-black p-10 h-full rounded-lg flex flex-col item-center justify-center">
+                        <div class="flex flex-col  ">
+                            <span class="flex flex-row my-2 ">
+                                <img src="asstes/1.png" alt="" class="mr-4">
+                                <h6 class="text-primary">
+                                    Live Demo Project
+                                    <div class="flex flex-row">
+                                        <p class="text-sm text-black">Lihat live demo project yang akan kamu buat di akhir buku ini.</p>
+                                        <img src="asstes/right icon.png" alt="" class="">
+        
+                                    </div>
+                    
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>   -->
+            </div>
+            <div class="min-w-screen mt-10" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back" >
+                <img src="asstes/book 2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="pratinjau"  class="px-10 py-24 bg-regal-primary min-h-screen">
+        <div class="flex flex-col justify-center items-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+            <h1 class="text-primary uppercase text-sm my-5 text-center bg-regal-primary-second p-3 rounded-full py-3 px-5"> pratinjau</h1>
+            <h1 class="text-xl font-semibold text-center">Sebelum membeli, kamu dapat melihat beberapa halaman pratinjau isi di dalam buku ini</h1>
+            <p class="text-sm text-regal-blue/80 my-5 text-center">Klik pada gambar halaman di sebelah kanan buku untuk melihat lebih detail halaman buku tersebut dan membaca isinya.</p>
+        </div>
+
+        <div class="flex flex-col justify-center lg:flex-row" >
+            <span data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                <img src="asstes/book 3.png" alt="" >
+            </span>
+            <span data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                <img src="asstes/page.png" alt=""  >
+                <p class="lg:px-24 font-DM text-sm">Halaman 1 dari 257</p>
+            </span>
+        </div>
+    </section>
+
+    <section id="harga" >
+        <div class=" w-full px-10 py-24 bg-regal-blue min-h-screen  flex flex-col font-DM ">
+            <div class="flex flex-col justify-center items-center " data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                <h1 class="text-primary uppercase text-sm my-5 text-center bg-regal-primary-second/10 py-3 px-5 rounded-full max-w-max">harga buku</h1>
+                <h1 class="text-xl font-semibold text-white text-center">Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di perangkat kamu</h1>
+                <p class="text-sm text-white/80 text-center tracking-wider my-5">Dilarang memperjualbelikan atau memperbanyak tanpa seizin penulis. Hak cipta dilindungi undang-undang.</p>
+            </div>
+            <div class="block mt-10 space-y-10 lg:space-y-0 lg:flex items-center justify-center gap-10">
+                <div class="ml-auto bg-white text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                    <p class="uppercase text-sm text-primary mb-3">Buku Digital</p>
+                    <h1 class="text-2xl font-semibold mb-3">Rp100.000</h1>
+                    <ul class="text-md space-y-2 lg:text-xl">
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Buku lengkap
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Akses secara digital
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check 1.png" alt="" >
+                                <span>
+                                    Buku fisik
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Mendapat pembaruan
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Konsultasi
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Dapat diunduh
+                                </span>
+                            </p>
+                        </li>
+    
+                    </ul>
+                 
+                    <div class="flex items-center space-x-5  mt-8">
+                        <a href="" class=" w-[269px] px-7 py-3 tracking-wider shadow-xl rounded-md text-sm text-center text-white bg-primary z-10">Beli Sekarang</a>
+                    
+                    </div>
+                </div>
+
+                <div class="ml-auto bg-white text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                    <p class="uppercase text-sm text-primary mb-3">Buku Digital</p>
+                    <h1 class="text-2xl font-semibold mb-3">Rp185.000</h1>
+                 
+                    <ul class="text-md space-y-2 lg:text-xl">
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Buku lengkap
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check 1.png" alt="" >
+                                <span>
+                                    Akses secara digital
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Buku fisik
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check 1.png" alt="" >
+                                <span>
+                                    Mendapat pembaruan
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Konsultasi
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Dapat diunduh
+                                </span>
+                            </p>
+                        </li>
+    
+                    </ul>
+                
+                    <div class="flex items-center space-x-5  mt-8">
+                        <a href="" class=" w-[269px] px-7 py-3 tracking-wider shadow-xl rounded-md text-sm text-center text-white bg-primary z-10">Beli Sekarang</a>
+                    
+                    </div>
+                </div>
+               
+                <div class="ml-auto bg-white text-black p-10  h-full rounded-lg flex flex-col item-center justify-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                    <p class="uppercase text-sm text-primary mb-3">Buku Digital</p>
+                    <h1 class="text-2xl font-semibold mb-3">Rp250.000</h1>
+                 
+                    <ul class="text-md space-y-2 lg:text-xl">
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Buku lengkap
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Akses secara digital
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Buku fisik
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Mendapat pembaruan
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Konsultasi
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="flex items-start space-x-5 text-gray-700">
+                                <img src="asstes/check.png" alt="" >
+                                <span>
+                                    Dapat diunduh
+                                </span>
+                            </p>
+                        </li>
+    
+                    </ul>
+                    <div class="flex items-center space-x-5  mt-8" >
+                        <a href="" class=" w-[269px] px-7 py-3 tracking-wider shadow-xl rounded-md text-sm text-center text-white bg-primary z-10">Beli Sekarang</a>
+                    
+                    </div>
+                </div>
+                 
+            </div>
+    
+                <p class="text-center text-regal-gray mt-10 p-10 lg:px-[16rem]" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                    *Buku digital akan dikirimkan ke alamat email kamu
+                    <br>*Buku fisik dikirim 7 hari setelah pemesanan
+                </p>
+  
+            </div>
+       
+                
+      
+    </section>
+
+    <section id="penulis" class="lg:my-24" >
+        <div class="flex flex-col w-full  lg:flex-row-reverse" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+            <div class="flex flex-col w-full lg:w-8/12 px-10 py-24">
+                <h1 class="text-primary uppercase text-sm my-5"> penulis buku</h1>
+                <h1 class="text-xl font-semibold">Tak kenal maka tak kenal. Berkenalan dengan penulis buku ini</h1>
+                <p class="text-sm text-regal-blue/80 my-5 text-justify leading-7">“Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya saya berharap nama ini tidak lagi terdengar asing di telinga kamu sebagai orang yang rajin berbagi hal-hal baik untuk masyarakat, khususnya dalam ilmu komputer. Saya seorang web developer yang masuk kategori apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski begitu, saya lebih senang fokus di front-end development, karena --menurut saya-- ini lebih sederhana saja. Di front-end development pada dasarnya hanya perlu menguasai tiga bahasa: HTML, CSS, dan JavaScript. Sudah jelas ini sederhana, yang bikin ribet itu kamu sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”</p>
+            </div>
+
+            <div class="lg:mt-10" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"  data-aos-easing="ease-out-back">
+                <img src="asstes/foto.png" alt="">
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="testimoni" class=" lg:mx-10 lg:px-12 bg-regal-primary">
+        <div class="flex flex-col w-full px-10 py-24 lg:flex-row lg:space-x-12  ">
+            <div class="flex flex-col font-DM lg:w-5/12">
+                <p class="text-primary uppercase text-sm my-3 font-bold"> TESTIMONIAL</p>
+                <h1 class="text-xl">Apa kata orang-orang yang <br> membaca buku ini?</h1>
+            </div>
+            <p class="mt-5 text-justify text-sm leading-6 font-DM lg:w-5/12">Kalo seandainya kamu belum percaya dengan buku ini maka tidak apa-apa, karena yang patut kamu percayai adalah Tuhan. Tapi, mungkin beberapa ulasan ini bisa membangkitkan hasratmu untuk membeli buku ini.</p>
+        </div>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper ">
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <p class="text-justify font-Source text-regal-gray mb-4 text-sm leading-[24px]">“Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”</p>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/human 1.png" alt="" class="mr-4">
+                                <span>
+                                    Sanusi Sulivan
+                                    <span class="text-regal-gray text-sm">
+                                        <br>Mahasiswa
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <p class="text-justify font-Source text-regal-gray mb-4 text-sm leading-[24px]">“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami taildwindcss. Isinya cukup lengkap dan detail. ”</p>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/human 2.png" alt="" class="mr-4">
+                                <span>
+                                    Sanusi Sulivan
+                                    <span class="text-regal-gray text-sm">
+                                        <br>Front-end Engineer
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <p class="text-justify font-Source text-regal-gray mb-4 text-sm leading-[24px]">“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”</p>
+                            <p class="flex items-start space-x-5 text-gray-700 my-3 ">
+                                <img src="asstes/human 3.png" alt="" class="mr-4">
+                                <span>
+                                    Sanusi Sulivan
+                                    <span class="text-regal-gray text-sm">
+                                        <br>IT Support
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-button-next swiper-navBtn hidden md:block"></div>
+            <div class="swiper-button-prev swiper-navBtn hidden md:block"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+   
+    
+    <section id=""  class="px-10 py-24 ">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-primary uppercase text-sm my-3 text-center  p-3 rounded-full py-3 px-5"> beli Buku</h1>
+            <h1 class="text-xl font-semibold text-center">Anda ingin segera memesan buku ini?i</h1>
+            <p class="text-sm text-regal-blue/80 my-5 text-center">Otak Kita butuh asupan nutrisi juga, tidak hanya perut saja. </p>
+        </div>
+
+        <div class="flex items-center justify-center space-x-10 font-MD md:items-center md:justify-center mt-10">
+            
+            <div class="flex flex-row mb-4 min-w-fit">
+                <img src="asstes/unduh 1.png" alt="">
+                
+            </div>
+            <div class="flex flex-col min-w-fit ">
+                
+                <p class="text-sm text-black text-center ">
+                    SUDAH TERJUAL
+                  
+                </p>
+                <p class="font-extrabold text-black text-center">
+                    501,234+
+                </p>
+             
+            </div>
+            <a href="" class=" min-w-fit px-7 py-3 tracking-wider shadow-xl rounded-full text-sm font-semibold text-white bg-primary">Beli Sekarang</a>
+        </div>
+      
+    </section>  
+
+
+    <footer class=" px-7 lg:px-24  text-black pt-10 pb-2 bg-regal-blue rounded-tr-3xl font-DM">
+        <div class="flex flex-col justify-between lg:flex-row">
+            <div class="w-full md:w-5/12">
+                <h1 class="my-5 text-white  text-lg">Sudah siap meningkatkan skill kamu?</h1>
+                <p class="mb-8 text-white/80 text-justify text-sm lg:mb-5">Mulai belajar hari ini di Multinity, atau dapatkan jawaban atas
+                    pertanyaan kamu di halaman bantuan.
+                </p>
+            </div>
+            
+
+            <div class="flex items-center justify-center space-x-5 ">
+                <a href="" class="min-w-fit px-7 py-3 tracking-wider  rounded-md text-sm  text-white bg-white/5  mb-5 ">Pusat Bantuan</a>
+                <a href="" class=" min-w-fit px-7 py-3 tracking-wider shadow-md rounded-md text-sm  text-white bg-primary  shadow-primary  mb-5">Mendaftar</a>
+              
+            </div>
+        </div>
+
+        
+        <img src="asstes/Rectangle.png" alt="" class="my-5">
+
+        <div class="block lg:flex justify-between">
+            <div class="w-full lg:w-4/12">
+                <img src="asstes/logo.png" alt="" class="mb-1">
+                <h2 class="text-lg text-white/80 my-2 ">The Malaka</h2>
+                <p class="text-xs leading-6 text-white/80 text-justify">
+                    Malaka adalah situs penyedia kursus ilmu komputer berbahasa Indonesia, mulai dari pengembangan hingga desain grafis.
+                </p>
+            </div>
+    
+            <div class="flex justify-around space-x-5 w-full ml-0 mt-10 lg:mt-0 lg:ml-24">
+                <div class="block text-white/80">
+                    <h5 class="uppercase text-sm md:text-lg mb-4">
+                        product
+                    </h5>
+                    <ul class="text-white/80">
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Courses</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">books</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Freebies</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Classes</a>
+                        </li>
+                    
+                    </ul>
+        
+                </div>
+            
+                <div class="block text-white/80">
+                    <h5 class="uppercase text-sm  md:text-lg mb-4">
+                       company
+                    </h5>
+                    <ul class="text-white/80">
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">About Us</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Contact</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Terms of Service</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+        
+                </div>
+
+                <div class="block text-white/80">
+                    <h5 class="uppercase text-sm  md:text-lg mb-4">
+                        get in touchs 
+                    </h5>
+                    <ul class="text-white/80">
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Twitter</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Facebook</a>
+                        </li>
+                        <li class="block text-xs md:text-sm mb-1.5 ">
+                            <a href="">Dribbble</a>
+            
+                        </li>
+                    </ul>
+        
+                </div>       
+    
+            </div>  
+        </div>
+
+        <img src="asstes/Rectangle.png" alt="" class="my-3">
+        <h5 class="text-xs text-center text-white/50 py-1 lg:py-3">
+            COPYRIGHT © 2022 - DESIGN NAUVAL | Builded by mhmdmardi
+        </h5>
+
+    
+    </footer> 
+
+    <!-- back to top button -->
+    <a href="#home" class="fixed hidden bottom-4 right-4 h-12 w-12 bg-black/20 backdrop-blur-md shadow-2xl rounded-full p-4 hover:animate-pulse " id="to-top">
+        <img src="./asstes/up arrow.png" alt="">
+    </a>
+    <!-- end back to top button -->
+  
+</body>
+<script src="./js/swiper-bundle.js"></script>
+<script src="./js/script.js"></script>
+</html>

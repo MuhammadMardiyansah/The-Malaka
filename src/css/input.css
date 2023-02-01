@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-menu{
+    @apply w-[30px] h-[2px] my-2 block bg-gray-400;
+}
+
+.hamburger-active > span:nth-child(1){
+    @apply  rotate-45 bg-white ;
+}
+.hamburger-active > span:nth-child(2){
+    @apply scale-0;
+}
+.hamburger-active > span:nth-child(3){
+    @apply -rotate-45 bg-white;
+}
+
+.nav-scroll{
+    @apply fixed bg-white/5 backdrop-blur-md shadow-md ;
+}
+
+.slide-container{
+    @apply flex justify-center items-center;
+}
+
+.slide-content{
+    @apply mx-10;
+}
+
+.card{
+    @apply w-[320px] py-10 px-10 ;
+}
+
+.swiper-navBtn{
+    @apply bg-primary h-10 w-10 text-white rounded-[50%];
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    @apply text-lg absolute top-1 left-4;
+}
+
+.slide-container{
+    @apply max-w-[1120px] w-full py-[40px];
+}
+
+.slide-content{
+    @apply mx-[40px] overflow-hidden;
+}
+
+.card{
+    @apply w-[320px] rounded-[25px] bg-white font-DM text-black shadow-xl;
+}
+
+.card-content{
+    @apply flex flex-col items-center py-[10px] px-[14px] font-DM ;
+}
